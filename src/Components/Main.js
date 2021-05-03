@@ -6,7 +6,7 @@ const Main = () => {
   return (
     <div id="home" className="heading-container">
       <div className="heading">
-        <div className="hello">Mackenzie Testing</div>
+        <div className="hello">Mackenzie Kroon</div>
         <div>
           <div className="software-engineer">Software Engineer</div>
           <div className="bio-content">
