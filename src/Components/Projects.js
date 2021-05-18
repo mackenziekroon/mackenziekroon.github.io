@@ -10,15 +10,8 @@ class Projects extends React.Component {
       seekrOpen: false,
       isFlipped: false,
     };
-    // this.togglePopUp = this.togglePopUp.bind(this);
     this.handleClick = this.handleClick.bind(this);
   }
-
-  // togglePopUp() {
-  //   this.setState({
-  //     seekrOpen: !this.state.seekrOpen,
-  //   });
-  // }
 
   handleClick(e) {
     e.preventDefault();
@@ -31,6 +24,11 @@ class Projects extends React.Component {
         <div id="projects" className="projects-container">
           <div className="project-title">Projects</div>
           <div className="projects">
+            <TempSeekr />
+            <PupQuiz />
+            <Juicery />
+          </div>
+          <div className="projects-row2">
             <TempSeekr />
             <PupQuiz />
             <Juicery />
