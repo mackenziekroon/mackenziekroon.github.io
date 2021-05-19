@@ -2,6 +2,7 @@ import React from "react";
 import TempSeekr from "./newSEekr";
 import PupQuiz from "./PupQuiz";
 import Juicery from "./Juicery";
+import Portfolio from "./Portfolio";
 
 class Projects extends React.Component {
   constructor(props) {
@@ -29,7 +30,7 @@ class Projects extends React.Component {
             <Juicery />
           </div>
           <div className="projects-row2">
-            <TempSeekr />
+            <Portfolio />
             <PupQuiz />
             <Juicery />
           </div>
