@@ -3,6 +3,8 @@ import TempSeekr from "./newSEekr";
 import PupQuiz from "./PupQuiz";
 import Juicery from "./Juicery";
 import Portfolio from "./Portfolio";
+import Ecom from "./Ecom";
+import NewApp from "./NewApp";
 
 class Projects extends React.Component {
   constructor(props) {
@@ -31,8 +33,8 @@ class Projects extends React.Component {
           </div>
           <div className="projects-row2">
             <Portfolio />
-            <PupQuiz />
-            <Juicery />
+            <NewApp />
+            <Ecom />
           </div>
         </div>
       </div>
