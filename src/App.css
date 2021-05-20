@@ -12,6 +12,10 @@ button {
   padding: 0;
 }
 
+::selection {
+  background-color: #707345;
+}
+
 .header {
   background-color: #b6bb8b;
   padding: 8px;
