@@ -1,6 +1,7 @@
 body {
   background-color: white;
   position: relative;
+
   /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
 }
 html,
@@ -129,6 +130,45 @@ button {
     width: 100%;
     margin-top: 10%;
   }
+}
+
+/*SKILLS SECTION */
+
+.skills-page-container {
+  font-family: "Alegreya Sans SC";
+  width: 100vw;
+  height: 100vh;
+  background-color: #edebe4;
+  text-align: center;
+}
+
+.skills-heading {
+  padding-top: 7%;
+}
+
+.skills-container {
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  align-content: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .skills-container {
+    grid-template-columns: auto auto;
+  }
+}
+
+.single-skill {
+  text-align: center;
+  background-color: #b6bb8b;
+  width: 150px;
+  height: 30px;
+  border: 2px solid #707345;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 10px;
 }
 
 .projects-container {
