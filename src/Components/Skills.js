@@ -20,11 +20,13 @@ const Skills = (props) => {
     <div className="skills-page-container">
       <h1 className="skills-heading">Skills</h1>
       <div className="skills-container">
-        {allSkills.map((skill) => (
-          <p className="single-skill">{skill}</p>
+        {allSkills.map((skill, index) => (
+          <p key={index} className="single-skill">
+            {skill}
+          </p>
         ))}
-        <p></p>
       </div>
+      {/* <div className="skills-object"></div> */}
     </div>
   );
 };

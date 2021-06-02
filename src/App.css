@@ -137,7 +137,7 @@ button {
 .skills-page-container {
   font-family: "Alegreya Sans SC";
   width: 100vw;
-  height: 100vh;
+  height: 70vh;
   background-color: #edebe4;
   text-align: center;
 }
@@ -169,6 +169,15 @@ button {
   border-radius: 4px;
   padding: 5px;
   margin: 10px;
+}
+
+.skills-object {
+  width: 190px;
+  height: 100px;
+  background-color: #707345;
+  position: absolute;
+  left: 50px;
+  top: 200px;
 }
 
 .projects-container {
