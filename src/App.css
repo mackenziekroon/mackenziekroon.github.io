@@ -593,7 +593,7 @@ button {
   align-content: center;
   width: 100%;
   height: 170px;
-  color: #2b764c;
+  /* color: #2b764c; */
   margin-left: 5%;
   margin-right: 5%;
 }

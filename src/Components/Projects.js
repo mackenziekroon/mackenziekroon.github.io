@@ -5,6 +5,7 @@ import Juicery from "./Juicery";
 import Portfolio from "./Portfolio";
 import Ecom from "./Ecom";
 import NewApp from "./NewApp";
+import TravelApp from "./TravelApp";
 
 class Projects extends React.Component {
   constructor(props) {
@@ -32,8 +33,8 @@ class Projects extends React.Component {
             <Juicery />
           </div>
           <div className="projects-row2">
+            <TravelApp />
             <Portfolio />
-            <NewApp />
             <Ecom />
           </div>
         </div>

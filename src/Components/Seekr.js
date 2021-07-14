@@ -56,7 +56,7 @@ class Seekr extends React.Component {
                       href="https://seekr-capstone.herokuapp.com/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      style={{ color: "#2b764c" }}
+                      style={{ color: "#b6bb8b" }}
                     >
                       <HttpIcon fontSize="large" />
                     </a>
@@ -67,7 +67,7 @@ class Seekr extends React.Component {
                       href="https://www.youtube.com/watch?v=ByWsbggwCiM&list=PLx0iOsdUOUml9uxVlTFGdM_l9MC2GqwBA&index=7"
                       target="_blank"
                       rel="noopener noreferrer"
-                      style={{ color: "#2b764c" }}
+                      style={{ color: "#b6bb8b" }}
                     >
                       <YouTubeIcon fontSize="large" />
                     </a>
@@ -78,7 +78,7 @@ class Seekr extends React.Component {
                       href="https://github.com/Job-application-app-GH/job-app"
                       target="_blank"
                       rel="noopener noreferrer"
-                      style={{ color: "#2b764c" }}
+                      style={{ color: "#b6bb8b" }}
                     >
                       <GitHubIcon fontSize="large" />
                     </a>
