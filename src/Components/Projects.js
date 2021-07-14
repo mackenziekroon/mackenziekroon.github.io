@@ -35,7 +35,7 @@ class Projects extends React.Component {
           <div className="projects-row2">
             <TravelApp />
             <Portfolio />
-            <Ecom />
+            <NewApp />
           </div>
         </div>
       </div>

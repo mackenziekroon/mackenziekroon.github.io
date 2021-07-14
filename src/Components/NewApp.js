@@ -1,7 +1,7 @@
 import React from "react";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import ReactCardFlip from "react-card-flip";
-import newapp from "./newapp.png";
+import newappquestion from "./newappquestion.png";
 
 class NewApp extends React.Component {
   constructor(props) {
@@ -27,10 +27,10 @@ class NewApp extends React.Component {
           <div>
             {/* THIS IS THE FRONT OF THE CARD */}
             <button className="project-pods">
-              <img className="img-container" alt="" src={newapp} />
+              <img className="img-container" alt="" src={newappquestion} />
 
               <div>
-                <div className="projects-title">New Goal App Project</div>
+                <div className="projects-title">New Project</div>
                 <p className="project-desc">
                   This project is under construction......
                 </p>
@@ -52,7 +52,7 @@ class NewApp extends React.Component {
                 </div>
 
                 <div className="links-circle">
-                  <div className="seekr-github">
+                  {/* <div className="seekr-github">
                     <a
                       className="links"
                       href="https://github.com/mackenziekroon/mackenziekroon.github.io"
@@ -62,7 +62,7 @@ class NewApp extends React.Component {
                     >
                       <GitHubIcon fontSize="large" />
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div onClick={this.handleClick} className="card-detail-btn">
