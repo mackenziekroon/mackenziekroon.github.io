@@ -53,7 +53,7 @@ class Seekr extends React.Component {
                   <div className="seekr-website">
                     <a
                       className="links"
-                      href="https://seekr-capstone.herokuapp.com/"
+                      href="https://seekr-job-app.herokuapp.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                       style={{ color: "#2b764c" }}
@@ -75,7 +75,7 @@ class Seekr extends React.Component {
                   <div className="seekr-github">
                     <a
                       className="links"
-                      href="https://github.com/Job-application-app-GH/job-app"
+                      href="https://github.com/mackenziekroon/job-app"
                       target="_blank"
                       rel="noopener noreferrer"
                       style={{ color: "#2b764c" }}
