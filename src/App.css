@@ -134,7 +134,7 @@ button {
 .projects-container {
   /* background-color: #cfd1b3; */
   background-color: #b6bb8b;
-  height: 100vh;
+  height: 200vh;
   width: 100vw;
   font-family: "Alegreya Sans SC";
 }
@@ -165,19 +165,29 @@ button {
 .projects {
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: flex-start;
   width: 100vw;
-  height: 80%;
-  /* margin-bottom: 5%; */
+  height: 30%;
+  margin-top: 5%;
+}
+
+.projects-row2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  width: 100vw;
+  height: 30%;
+  margin-top: 15%;
 }
 
 @media only screen and (max-width: 1024px) {
   .projects {
     flex-direction: column;
+    align-items: center;
     justify-content: safe;
     /* min-height: 120vh; */
     margin-top: 2em;
-    padding-bottom: 2em;
+    /* padding-bottom: 2em; */
   }
   .seekr-content {
     flex-direction: column;
@@ -185,6 +195,17 @@ button {
     height: 75%;
     margin-top: 10%;
     align-content: center;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .projects-row2 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: safe;
+    /* min-height: 120vh; */
+    margin-top: 0;
+    padding-bottom: 2em;
   }
 }
 
@@ -572,7 +593,7 @@ button {
   align-content: center;
   width: 100%;
   height: 170px;
-  color: #2b764c;
+  /* color: #2b764c; */
   margin-left: 5%;
   margin-right: 5%;
 }

@@ -2,6 +2,10 @@ import React from "react";
 import TempSeekr from "./newSEekr";
 import PupQuiz from "./PupQuiz";
 import Juicery from "./Juicery";
+import Portfolio from "./Portfolio";
+import Ecom from "./Ecom";
+import NewApp from "./NewApp";
+import TravelApp from "./TravelApp";
 
 class Projects extends React.Component {
   constructor(props) {
@@ -10,15 +14,8 @@ class Projects extends React.Component {
       seekrOpen: false,
       isFlipped: false,
     };
-    // this.togglePopUp = this.togglePopUp.bind(this);
     this.handleClick = this.handleClick.bind(this);
   }
-
-  // togglePopUp() {
-  //   this.setState({
-  //     seekrOpen: !this.state.seekrOpen,
-  //   });
-  // }
 
   handleClick(e) {
     e.preventDefault();
@@ -34,6 +31,11 @@ class Projects extends React.Component {
             <TempSeekr />
             <PupQuiz />
             <Juicery />
+          </div>
+          <div className="projects-row2">
+            <TravelApp />
+            <Portfolio />
+            <NewApp />
           </div>
         </div>
       </div>
