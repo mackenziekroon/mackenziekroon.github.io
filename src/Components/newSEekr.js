@@ -86,7 +86,7 @@ class TempSeekr extends React.Component {
                   <div className="seekr-github">
                     <a
                       className="links"
-                      href="https://github.com/Job-application-app-GH/job-app"
+                      href="https://github.com/mackenziekroon/job-app"
                       target="_blank"
                       rel="noopener noreferrer"
                       style={{ color: "#b6bb8b" }}
