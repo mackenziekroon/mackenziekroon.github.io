@@ -602,6 +602,29 @@ button {
   font-size: 20px;
 }
 
+.mobile-notice {
+  color: #707345;
+  margin: 0px 5px 0px 5px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mobile-notice {
+    display: none;
+  }
+}
+
+.mobile-notice-small {
+  color: #707345;
+  margin: 0px 20px 0px 20px;
+  font-size: small;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mobile-notice-small {
+    display: none;
+  }
+}
+
 .links {
   text-decoration: none;
   color: #edebe4;

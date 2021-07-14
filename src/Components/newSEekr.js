@@ -1,10 +1,8 @@
 import React from "react";
-import Seekr from "./Seekr";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import YouTubeIcon from "@material-ui/icons/YouTube";
 import HttpIcon from "@material-ui/icons/Http";
 import ReactCardFlip from "react-card-flip";
-import seekrScreen from "../seekrScreen.png";
 import seekr1 from "./seekr1.png";
 
 class TempSeekr extends React.Component {
@@ -66,7 +64,7 @@ class TempSeekr extends React.Component {
                   <div className="seekr-website">
                     <a
                       className="links"
-                      href="https://capstone-seekr.herokuapp.com/"
+                      href="https://seekr-job-app.herokuapp.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                       style={{ color: "#b6bb8b" }}
@@ -96,6 +94,12 @@ class TempSeekr extends React.Component {
                       <GitHubIcon fontSize="large" />
                     </a>
                   </div>
+                </div>
+                <div className="mobile-notice">
+                  This app was designed mobile first
+                </div>
+                <div className="mobile-notice-small">
+                  For optimal user experience, please view on a mobile device
                 </div>
               </div>
               <div onClick={this.handleClick} className="card-detail-btn">
