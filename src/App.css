@@ -12,124 +12,40 @@ button {
   padding: 0;
 }
 
-::selection {
-  background-color: #707345;
-}
 
-.header {
-  background-color: #b6bb8b;
-  padding: 8px;
+#home {
   display: flex;
-  flex-direction: row;
-  box-shadow: #707345 2px 2px 8px 2px;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1;
-}
-
-@media only screen and (max-width: 1024px) {
-  .header {
-    position: absolute;
-  }
-}
-
-.nav-bar {
-  display: flex;
-  flex-direction: row;
-  flex-grow: 1;
-  font-family: "Alegreya Sans SC";
-  width: 500px;
-  color: #f1f4f9;
-}
-
-@media only screen and (max-width: 1024px) {
-  .nav-bar {
-    display: none;
-  }
-}
-
-.headings {
-  margin-right: 10px;
-  margin-left: 60px;
-}
-
-.headings:hover {
-  text-decoration: underline #f1f4f9 1px solid;
-}
-
-.heading-container {
+  flex-direction: column;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
 
-.heading {
-  color: black;
-  margin-left: 5%;
-  margin-top: 5%;
-  margin-right: 5%;
-}
-
-.hello {
-  font-size: 50px;
-  font-variant: small-caps;
-  padding-top: 10%;
-}
-
-@media only screen and (max-width: 1024px) {
-  .hello {
-    font-size: 50px;
-    padding-top: 20%;
-  }
-}
-
-.software-engineer {
-  font-size: 40px;
-  font-variant: small-caps;
-}
-
-@media only screen and (max-width: 1024px) {
-  .software-engineer {
-    font-size: 35px;
-  }
-}
-
-.bio-content {
+.title {
   display: flex;
-  flex-direction: row;
-  font-family: "Alegreya Sans SC";
-}
-
-.profile-photo-container {
-  width: 50%;
-  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 50%;
+  height: 100%;
 }
 
-.profile-photo {
-  height: 400px;
-  width: auto;
+.name {
+  width: 100%;
 }
 
-@media only screen and (max-width: 1024px) {
-  .profile-photo-container {
-    display: none;
-  }
-}
-
-.bio {
-  margin-top: 5%;
+.softwareEngineer {
   width: 50%;
 }
 
-@media only screen and (max-width: 1024px) {
-  .bio {
-    width: 100%;
-    margin-top: 10%;
-  }
-}
+
+
+
+
+
+
+
+
+
 
 .projects-container {
   /* background-color: #cfd1b3; */
