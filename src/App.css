@@ -1,6 +1,6 @@
 body {
   background-color: #005239;
-  position: relative;
+  /* position: relative; */
   /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
 }
 html,
@@ -15,18 +15,17 @@ button {
 
 #home {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   height: 100vh;
   width: 100%;
 }
 
 .leftMain {
-  width: 50%;
-  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  }
+}
 .name {
   width: 100%;
 }
@@ -51,8 +50,39 @@ button {
   margin-top: -8%;
 }
 
+.rightMain {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.projectsTitle, .linkedinTitle, .githubTitle, .contactTitle {
+  width: 50%;
+  border: 3px solid black;
+  margin: 4px;
+}
 
+.projectsTitle {
+  background-color: #FFA7DE;
+  margin-right: 5%;
+}
+
+.linkedinTitle {
+  background-color: #FDE962;
+  margin-left: 5%;
+}
+
+.githubTitle {
+  background-color: #FF8E51;
+  margin-right: 5%;
+}
+
+.contactTitle {
+  background-color: #3EA66B;
+  margin-left: 5%;
+}
 
 
 
