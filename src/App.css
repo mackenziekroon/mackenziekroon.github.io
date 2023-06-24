@@ -20,23 +20,36 @@ button {
   width: 100%;
 }
 
-.title {
+.leftMain {
+  width: 50%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  width: 50%;
-  height: 100%;
-}
-
+  }
 .name {
   width: 100%;
 }
 
 .softwareEngineer {
-  width: 50%;
+  width: 100%;
+  }
+
+.engineer {
+  display: block;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  /* position: relative; */
 }
 
+.star {
+  display: block;
+  width: 19%;
+  margin-left: 68%;
+  margin-top: -8%;
+}
 
 
 
