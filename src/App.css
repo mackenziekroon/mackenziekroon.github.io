@@ -39,8 +39,8 @@ button {
   width: 55%;
   margin-left: auto;
   margin-right: auto;
-  background-color: white;
-  /* position: relative; */
+  background-color: #FFFBE0;
+  border: 2px solid black;
 }
 
 .star {
