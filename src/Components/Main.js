@@ -18,10 +18,20 @@ const Main = () => {
         </div>
       </div>
       <div className="rightMain">
-        <img className="projectsTitle" src={projects} alt="Projects"/>
-        <img className="linkedinTitle" src={linkedin} alt="LinkedIn"/>
-        <img className="githubTitle" src={github} alt="GitHub"/>
-        <img className="contactTitle" src={contact} alt="Contact Me"/>
+        <div className="titles">
+          <a href="https://www.linkedin.com/in/mackenziekroon/" target="_blank" rel="noopener noreferrer">
+            <img className="projectsTitle" src={projects} alt="Projects"/>
+          </a>
+          <a href="https://www.linkedin.com/in/mackenziekroon/" target="_blank" rel="noopener noreferrer">
+            <img className="linkedinTitle" src={linkedin} alt="LinkedIn"/>
+          </a>
+          <a href="https://www.linkedin.com/in/mackenziekroon/" target="_blank" rel="noopener noreferrer">
+            <img className="githubTitle" src={github} alt="GitHub"/>
+          </a>
+          <a href="https://www.linkedin.com/in/mackenziekroon/" target="_blank" rel="noopener noreferrer">
+            <img className="contactTitle" src={contact} alt="Contact Me"/>
+          </a>
+        </div>
       </div>
     </div>
   );

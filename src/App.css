@@ -8,9 +8,13 @@ body {
   overflow-x: hidden;
 }
 
-button {
-  padding: 0;
+a {
+  padding: 0 !important;
+  display: block;
+  width: 100%;
+  margin: 0 !important;
 }
+
 
 
 #home {
@@ -25,13 +29,15 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  margin-left: 5%;
 }
 .name {
-  width: 100%;
+  width: 90%;
 }
 
 .softwareEngineer {
-  width: 100%;
+  width: 65%;
   }
 
 .engineer {
@@ -56,13 +62,28 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-right: 5%
 }
 
-.projectsTitle, .linkedinTitle, .githubTitle, .contactTitle {
+.titles {
   width: 50%;
-  border: 3px solid black;
-  margin: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+
+
+.projectsTitle, .linkedinTitle, .githubTitle, .contactTitle {
+  width: 100%;
+  border: 3px solid black;
+  margin: 5px;
+  float: left;
+  display: block;
+}
+
+
 
 .projectsTitle {
   background-color: #FFA7DE;
