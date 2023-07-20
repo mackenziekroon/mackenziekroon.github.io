@@ -90,9 +90,17 @@ a {
   margin-right: 15%;
 }
 
+.projectsTitle:hover {
+  background-color: #9C8BEF;
+}
+
 .linkedinTitle {
   background-color: #FDE962;
   margin-left: 15%;
+}
+
+.linkedinTitle:hover {
+  background-color: #5CD1FF;
 }
 
 .githubTitle {
@@ -100,9 +108,17 @@ a {
   margin-right: 15%;
 }
 
+.githubTitle:hover {
+  background-color: #9C8BEF;
+}
+
 .contactTitle {
   background-color: #3EA66B;
   margin-left: 15%;
+}
+
+.contactTitle:hover {
+  background-color: #5CD1FF;
 }
 
 

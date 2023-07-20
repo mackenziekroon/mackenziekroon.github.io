@@ -6,21 +6,8 @@ import ReactCardFlip from "react-card-flip";
 import seekr from "../Components/images/seekr-vector.png";
 
 function Seekr() {
-  // constructor(props) {
-  //   super(props);
-  //   this.state = {
-  //     isFlipped: false,
-  //   };
-  //   this.handleClick = this.handleClick.bind(this);
-  // }
-
-  // handleClick(e) {
-  //   e.preventDefault();
-  //   this.setState((prevState) => ({ isFlipped: !prevState.isFlipped }));
-  // }
 
   const [flipped, setFlipped] = useState(false);
-
 
     return (
       <div>
