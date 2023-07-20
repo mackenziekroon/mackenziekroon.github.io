@@ -5,6 +5,7 @@ let vacayImage = require('./Components/images/travel-app-vector.png')
 
 const data = {
   'seekr': {
+    id: 'seekr',
     projectImage: seekrImage,
     projectTitle: 'seekr',
     projectDescription: 'A PWA that allows candidates and recruiters to connect',
@@ -16,13 +17,15 @@ const data = {
     addInfoContent: 'For optimal user experience, please view on a mobile device'
   },
   'Pup Quiz': {
+    id: 'pupquiz',
     projectImage: pupquizImage,
-    projectTitle: 'PupQuiz',
+    projectTitle: 'Pup Quiz',
     projectDescription: `A mobile app that tests users' knowledge of dog breeds`,
     tech: ['React Native', 'JavaScript', 'Node', 'Express', 'PostgreSQL'],
     githubLink: 'https://github.com/mackenziekroon/stackathon_project'
   },
   'Fruitify Juicery': {
+    id: 'juicery',
     projectImage: juiceryImage,
     projectTitle: 'Fruitify Juicery',
     projectDescription: 'A mock e-commerce web application that sells juices',
@@ -31,6 +34,7 @@ const data = {
     githubLink: 'https://github.com/grace-shopper-fruit-for-loops/graceshopper'
   },
   'Vacay': {
+    id: 'vacay',
     projectImage: vacayImage,
     projectTitle: 'Vacay',
     projectDescription: 'A website that helps you choose your next travel destination',
