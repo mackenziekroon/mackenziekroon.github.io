@@ -1,110 +1,19 @@
 import React from "react";
-import seekrScreen from "../seekrScreen.png";
+import Project from "./Project";
+import seekr from "../Components/images/seekr-vector.png";
 
-import seekrScreen2 from "../seekrScreen2.png";
-import seekrScreen3 from "../seekrScreen3.png";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import YouTubeIcon from "@material-ui/icons/YouTube";
-import HttpIcon from "@material-ui/icons/Http";
+const Seekr = () => {
+  const tech = ['JavaScript', 'React', 'Redux', 'Node', 'Express', 'PostgreSQL']
+  return (
+    <Project
+      projectImage={seekr}
+      projectTitle='seekr'
+      projectDescription='A PWA that allows candidates and recruiters to connect'
+      tech={tech}
 
-class Seekr extends React.Component {
-  constructor(props) {
-    super(props);
-    this.handleClick = this.handleClick.bind(this);
-  }
-
-  handleClick() {
-    alert("closing");
-  }
-
-  render() {
-    return (
-      <div>
-        <div className="seekr-modal">
-          <div className="seekr-container">
-            <button
-              className="seekr-close-btn"
-              onClick={this.props.togglePopUp}
-            >
-              x
-            </button>
-            <div className="seekr-heading">
-              <strong>seekr</strong>
-            </div>
-            <div className="seekr-content">
-              <div className="seekr-details">
-                <img
-                  className="seekr-img"
-                  id="image-one"
-                  alt=""
-                  src={seekrScreen}
-                />
-                {/* <img className="seekr-img" alt="" src={seekrScreen2} /> */}
-                <img className="seekr-img" alt="" src={seekrScreen3} />
-              </div>
-
-              <div className="right-column">
-                <p className="line-border-projects">
-                  seekr is a Progressive Web App that allows candidates and
-                  prospective employers in the tech industry to match each other
-                  based on skills
-                </p>
-                <div className="links-circle">
-                  <div className="seekr-website">
-                    <a
-                      className="links"
-                      href="https://seekr-job-app.herokuapp.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      style={{ color: "#b6bb8b" }}
-                    >
-                      <HttpIcon fontSize="large" />
-                    </a>
-                  </div>
-                  <div className="seekr-demo">
-                    <a
-                      className="links"
-                      href="https://www.youtube.com/watch?v=ByWsbggwCiM&list=PLx0iOsdUOUml9uxVlTFGdM_l9MC2GqwBA&index=7"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      style={{ color: "#b6bb8b" }}
-                    >
-                      <YouTubeIcon fontSize="large" />
-                    </a>
-                  </div>
-                  <div className="seekr-github">
-                    <a
-                      className="links"
-                      href="https://github.com/mackenziekroon/job-app"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      style={{ color: "#b6bb8b" }}
-                    >
-                      <GitHubIcon fontSize="large" />
-                    </a>
-                  </div>
-                </div>
-                <div className="tech-stack-circle">
-                  <div className="seekr-tech-stack">
-                    {/* <div>Created with:</div> */}
-                    {/* <ul>
-                      <li>Javascript</li>
-                      <li>Node</li>
-                      <li>Express</li>
-                      <li>React</li>
-                      <li>Redux</li>
-                    </ul> */}
-                    Javascript &middot; Node &middot; Express &middot; React
-                    &middot; Redux &middot; Postgres
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    );
-  }
+    />
+  )
 }
 
-export default Seekr;
+
+export default Seekr
