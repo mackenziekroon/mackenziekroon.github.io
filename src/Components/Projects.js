@@ -14,18 +14,29 @@ function Projects() {
     return (
       <div>
         <div id="projects" className="projects-container">
-           <img className="project-title" src={ProjectsHeading} alt="Projects Heading"/>
+          <img className="project-title" src={ProjectsHeading} alt="Projects Heading"/>
           <div className="projects">
+              { Object.entries(data).map(([project, value]) => {
+                return (
+                  <Project
+                  projectImage={value.projectImage.default}
+                  projectTitle={value.projectTitle}
+                  projectDescription={value.projectDescription}
+                  tech={value.tech}
+                  projectLink={value.projectLink}
+                  youtubeLink={value.youtubeLink}
+                  githubLink={value.githubLink}
+                  addInfoHeading={value.addInfoHeading}
+                  addInfoContent={value.addInfoContent}
 
-            {/* <Seekr />
-            <PupQuiz />
-            <Juicery /> */}
+              />
+                )
+
+
+              })
+              }
+
           </div>
-          {/* <div className="projects-row2">
-            <TravelApp />
-            <Portfolio />
-            <NewApp />
-          </div> */}
         </div>
       </div>
     );

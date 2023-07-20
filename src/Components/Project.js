@@ -8,7 +8,9 @@ import ReactCardFlip from "react-card-flip";
 
 function Project(props) {
   const [flipped, setFlipped] = useState(false)
+  console.log("propss---->", props)
   const { projectImage, projectTitle, projectDescription, tech, projectLink, youtubeLink, githubLink, addInfoHeading, addInfoContent  } = props
+
   const linkData = {
     className: 'links',
     target: '_blank',
