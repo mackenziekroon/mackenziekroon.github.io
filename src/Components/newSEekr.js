@@ -1,30 +1,32 @@
-import React from "react";
+import React, { useState } from 'react';
 import GitHubIcon from "@material-ui/icons/GitHub";
 import YouTubeIcon from "@material-ui/icons/YouTube";
 import HttpIcon from "@material-ui/icons/Http";
 import ReactCardFlip from "react-card-flip";
-import seekr1 from "./seekr1.png";
+import seekr from "../Components/images/seekr-vector.png";
 
-class TempSeekr extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      isFlipped: false,
-    };
-    this.handleClick = this.handleClick.bind(this);
-  }
+function Seekr() {
+  // constructor(props) {
+  //   super(props);
+  //   this.state = {
+  //     isFlipped: false,
+  //   };
+  //   this.handleClick = this.handleClick.bind(this);
+  // }
 
-  handleClick(e) {
-    e.preventDefault();
-    this.setState((prevState) => ({ isFlipped: !prevState.isFlipped }));
-  }
+  // handleClick(e) {
+  //   e.preventDefault();
+  //   this.setState((prevState) => ({ isFlipped: !prevState.isFlipped }));
+  // }
 
-  render() {
+  const [flipped, setFlipped] = useState(false);
+
+
     return (
       <div>
         <ReactCardFlip
-          isFlipped={this.state.isFlipped}
-          flipDirection="vertical"
+          isFlipped={flipped}
+          flipDirection="horizontal"
         >
           <div>
             {/* THIS IS THE FRONT OF THE CARD */}
@@ -33,7 +35,7 @@ class TempSeekr extends React.Component {
                 className="img-container"
                 // id="image-one"
                 alt=""
-                src={seekr1}
+                src={seekr}
               />
               {/* <div className="img-container"></div> */}
               <div>
@@ -42,7 +44,7 @@ class TempSeekr extends React.Component {
                   A PWA that allows candidates and recruiters to connect
                 </p>
               </div>
-              <div onClick={this.handleClick} className="card-detail-btn">
+              <div onClick={() => setFlipped(!flipped)} className="card-detail-btn">
                 <p>Click for details</p>
               </div>
             </button>
@@ -102,7 +104,7 @@ class TempSeekr extends React.Component {
                   For optimal user experience, please view on a mobile device
                 </div>
               </div>
-              <div onClick={this.handleClick} className="card-detail-btn">
+              <div onClick={() => setFlipped(!flipped)} className="card-detail-btn">
                 <p>Flip Back</p>
               </div>
             </button>
@@ -111,6 +113,6 @@ class TempSeekr extends React.Component {
       </div>
     );
   }
-}
 
-export default TempSeekr;
+
+export default Seekr;

@@ -1,35 +1,19 @@
 import React from "react";
-import TempSeekr from "./newSEekr";
+import Seekr from "./newSEekr";
 import PupQuiz from "./PupQuiz";
 import Juicery from "./Juicery";
 import Portfolio from "./Portfolio";
-import Ecom from "./Ecom";
 import NewApp from "./NewApp";
 import TravelApp from "./TravelApp";
 import ProjectsHeading from "../Components/images/projects-heading-vector.png"
 
-class Projects extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      seekrOpen: false,
-      isFlipped: false,
-    };
-    this.handleClick = this.handleClick.bind(this);
-  }
-
-  handleClick(e) {
-    e.preventDefault();
-    this.setState((prevState) => ({ isFlipped: !prevState.isFlipped }));
-  }
-
-  render() {
+function Projects() {
     return (
       <div>
         <div id="projects" className="projects-container">
            <img className="project-title" src={ProjectsHeading} alt="Projects Heading"/>
           <div className="projects">
-            <TempSeekr />
+            <Seekr />
             <PupQuiz />
             <Juicery />
           </div>
@@ -42,6 +26,5 @@ class Projects extends React.Component {
       </div>
     );
   }
-}
 
 export default Projects;
