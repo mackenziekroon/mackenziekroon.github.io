@@ -204,7 +204,7 @@ a {
 .project-pods {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+  align-items: center;
   background-color: #FFFBE0;
   color: black;
   font-size: 20px;
@@ -661,9 +661,10 @@ a {
 }
 
 .img-container {
-  width: 100%;
-  height: 40%;
-  margin: 0;
+  width: 85%;
+  height: auto;
+  margin-top: 15px;
+  border: 2px solid black;
   background-color: thistle;
   top: 0;
   right: 0;
