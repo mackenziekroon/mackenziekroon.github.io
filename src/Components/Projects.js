@@ -6,6 +6,7 @@ import Portfolio from "./Portfolio";
 import Ecom from "./Ecom";
 import NewApp from "./NewApp";
 import TravelApp from "./TravelApp";
+import ProjectsHeading from "../Components/images/projects-heading-vector.png"
 
 class Projects extends React.Component {
   constructor(props) {
@@ -26,7 +27,7 @@ class Projects extends React.Component {
     return (
       <div>
         <div id="projects" className="projects-container">
-          <div className="project-title">Projects</div>
+           <img className="project-title" src={ProjectsHeading} alt="Projects Heading"/>
           <div className="projects">
             <TempSeekr />
             <PupQuiz />

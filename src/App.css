@@ -87,22 +87,22 @@ a {
 
 .projectsTitle {
   background-color: #FFA7DE;
-  margin-right: 5%;
+  margin-right: 15%;
 }
 
 .linkedinTitle {
   background-color: #FDE962;
-  margin-left: 5%;
+  margin-left: 15%;
 }
 
 .githubTitle {
   background-color: #FF8E51;
-  margin-right: 5%;
+  margin-right: 15%;
 }
 
 .contactTitle {
   background-color: #3EA66B;
-  margin-left: 5%;
+  margin-left: 15%;
 }
 
 
@@ -113,7 +113,7 @@ a {
 
 .projects-container {
   /* background-color: #cfd1b3; */
-  background-color: #b6bb8b;
+  background-color: #3EA66B;
   height: 200vh;
   width: 100vw;
   font-family: "Alegreya Sans SC";
@@ -128,18 +128,17 @@ a {
 }
 
 .project-title {
-  padding-top: 5%;
-  padding-left: 5%;
-  font-size: 75px;
-  color: #f1f4f9;
-  font-family: "Alegreya Sans SC";
-  /* font-variant: small-caps; */
+  margin-left: 7%;
+  margin-top: 5%;
+  width: 25%;
+  background-color: #FFA7DE;
+  border: 2px solid black;
 }
 
 .project-desc {
   padding-left: 5%;
   padding-right: 5%;
-  color: #707345;
+  color: black;
 }
 
 .projects {
@@ -206,27 +205,24 @@ a {
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
-  background-color: white;
+  background-color: #FFFBE0;
   color: black;
   font-size: 20px;
-  /* height: 450px; */
-  /* width: 320px; */
   height: 22em;
   width: 16em;
-  border-radius: 15%;
-  border: none;
+  border: 3px solid black;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   /* padding-right: 1%;
   padding-left: 1%; */
   overflow: hidden;
-  font-family: "Alegreya Sans SC";
+  font-family: "Arial";
 }
 
 .projects-title {
   justify-content: center;
   width: 100%;
   font-size: xx-large;
-  color: #707345;
+  color: black;
   margin-top: 12%;
 }
 
@@ -246,7 +242,7 @@ a {
   height: 120px;
   font-size: medium;
   align-items: flex-end;
-  color: #b6bb8b;
+  color: black;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -298,7 +294,7 @@ a {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding-right: 1%;
   padding-left: 1%;
-  font-family: "Alegreya Sans SC";
+  font-family: "Arial";
 }
 
 @media only screen and (max-width: 1024px) {
