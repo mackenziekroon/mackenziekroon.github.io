@@ -15,7 +15,7 @@ function Project(props) {
     className: 'links',
     target: '_blank',
     rel: 'noopener noreferrer',
-    style: { color: "#b6bb8b" },
+    style: { color: "black" },
     fontSize: 'large'
   }
   return (

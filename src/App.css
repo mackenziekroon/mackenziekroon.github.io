@@ -575,6 +575,7 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 60px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -584,11 +585,30 @@ a {
 }
 
 .tech {
-  border: 2px solid #b6bb8b;
-  color: #b6bb8b;
+  border: 2px solid black;
+  color: black;
   padding: 5px;
   margin: 2px;
   font-size: x-large;
+
+  &:nth-child(1) {
+    background-color: #5CD1FF;
+  }
+  &:nth-child(2) {
+    background-color: #3EA66B;
+  }
+  &:nth-child(3) {
+    background-color: #FF8E51;
+  }
+  &:nth-child(4) {
+    background-color: #FDE962;
+  }
+  &:nth-child(5) {
+    background-color: #9C8BEF;
+  }
+  &:nth-child(6) {
+    background-color: #FFA7DE;
+  }
 }
 
 .seekr-demo {
@@ -596,7 +616,7 @@ a {
 }
 
 .mobile-notice {
-  color: #707345;
+  color: black;
   margin: 0px 5px 0px 5px;
 }
 
@@ -607,7 +627,7 @@ a {
 }
 
 .mobile-notice-small {
-  color: #707345;
+  color: black;
   margin: 0px 20px 0px 20px;
   font-size: small;
 }
