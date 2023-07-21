@@ -123,7 +123,40 @@ a {
 
 
 
-
+@media only screen and (max-width: 1024px){
+  #home {
+    flex-direction: column;
+  }
+  .name {
+    margin-top: 105px;
+  }
+  .star {
+    width: 30%;
+    margin-left: 80%;
+    margin-top: -14%;
+  }
+  .engineer {
+    width: 90%;
+  }
+  .leftMain {
+    margin-left: 0;
+    height: 40%;
+    width: auto;
+  }
+  .rightMain {
+    margin-right: 0;
+    height: 40%;
+    width: auto;
+  }
+  .titles {
+    width: 60%;
+    margin-right: 35px;
+  }
+  .projectsTitles {
+    margin-right: 40px;
+    background-color: #edebe4;
+  }
+}
 
 
 
