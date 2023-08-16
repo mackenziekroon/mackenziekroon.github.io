@@ -19,16 +19,16 @@ const Main = () => {
       </div>
       <div className="rightMain">
         <div className="titles">
-          <a href="https://www.linkedin.com/in/mackenziekroon/" target="_blank" rel="noopener noreferrer">
+          <a href="#project-section">
             <img className="projectsTitle" src={projects} alt="Projects"/>
           </a>
           <a href="https://www.linkedin.com/in/mackenziekroon/" target="_blank" rel="noopener noreferrer">
             <img className="linkedinTitle" src={linkedin} alt="LinkedIn"/>
           </a>
-          <a href="https://www.linkedin.com/in/mackenziekroon/" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/mackenziekroon" target="_blank" rel="noopener noreferrer">
             <img className="githubTitle" src={github} alt="GitHub"/>
           </a>
-          <a href="https://www.linkedin.com/in/mackenziekroon/" target="_blank" rel="noopener noreferrer">
+          <a href="#contact">
             <img className="contactTitle" src={contact} alt="Contact Me"/>
           </a>
         </div>

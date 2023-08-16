@@ -5,7 +5,7 @@ import data from "../projectData"
 
 function Projects() {
     return (
-      <div>
+      <div id="project-section">
         <div className="projects-container">
           <img className="project-heading" src={ProjectsHeading} alt="Projects Heading"/>
           <div className="projects">
