@@ -11,7 +11,6 @@ export default class ContactUs extends React.Component {
   }
 
   sendEmail(e) {
-    console.log("before", this.state);
     e.preventDefault();
 
     emailjs
