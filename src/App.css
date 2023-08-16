@@ -325,14 +325,14 @@ a {
 }
 
 @media only screen and (max-width: 1200px) {
-  .project-pods {
+  .project-pods, .project-pods-back {
     width: 250px;
     height: 375px;
   }
 }
 
 @media only screen and (max-width: 1024px) {
-  .project-pods {
+  .project-pods, .project-pods-back {
     width: 300px;
     margin-bottom: 10%;
     padding-bottom: 2%;
@@ -359,28 +359,11 @@ a {
   }
 }
 
-/* .project-pods-back {
-  background-color: white;
-  color: black;
-  font-size: 20px;
-  height: 22em;
-  width: 16em;
-  border-radius: 15%;
-  border: solid 3px white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  padding-right: 1%;
-  padding-left: 1%;
-  font-family: "Arial";
-} */
-
-@media only screen and (max-width: 1024px) {
-  .project-pods-back {
-    display: flex;
-    height: 20em;
-    margin-bottom: 10%;
-    border-radius: 15%;
-  }
+.pods-content-back {
+  width: 100%;
 }
+
+
 @media only screen and (max-width: 1024px) {
   .pods-content-back {
     padding-top: 3em;
@@ -474,7 +457,6 @@ a {
 }
 
 .links-circle {
-  width: 300px;
   height: 60px;
   color: #edebe4;
   text-decoration: none;
@@ -534,7 +516,7 @@ a {
   color: black;
   padding: 5px;
   margin: 2px;
-  font-size: x-large;
+  font-size: 20px;
 
   &:nth-child(1) {
     background-color: #5CD1FF;
