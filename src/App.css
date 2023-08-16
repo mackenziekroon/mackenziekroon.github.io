@@ -33,11 +33,11 @@ a {
   margin-left: 5%;
 }
 .name {
-  width: 90%;
+  width: 800px;
 }
 
 .softwareEngineer {
-  width: 65%;
+  width: 800px;
   }
 
 .engineer {
@@ -66,13 +66,38 @@ a {
 }
 
 .titles {
-  width: 50%;
+  width: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+
+
+@media only screen and (max-width: 1700px){
+  .name {
+    width: 600px
+  }
+  .softwareEngineer {
+    width: 600px;
+  }
+  .titles {
+    width: 400px
+  }
+}
+
+@media only screen and (max-width: 1300px){
+  .name {
+    width: 500px
+  }
+  .softwareEngineer {
+    width: 500px;
+  }
+  .titles {
+    width: 300px
+  }
+}
 
 
 .projectsTitle, .linkedinTitle, .githubTitle, .contactTitle {
@@ -129,14 +154,15 @@ a {
   }
   .name {
     margin-top: 105px;
+    width: 600px;
   }
   .star {
     width: 30%;
-    margin-left: 80%;
+    margin-left: 65%;
     margin-top: -14%;
   }
-  .engineer {
-    width: 90%;
+  .softwareEngineer {
+    width: 600px;
   }
   .leftMain {
     margin-left: 0;
@@ -149,12 +175,30 @@ a {
     width: auto;
   }
   .titles {
-    width: 60%;
+    width: 400px;
     margin-right: 35px;
+    margin-top: 190px
   }
-  .projectsTitles {
-    margin-right: 40px;
-    background-color: #edebe4;
+}
+
+@media only screen and (max-width: 540px){
+  .name, .softwareEngineer {
+    width: 400px;
+  }
+  .titles {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  .rightMain {
+    height: 25%
+  }
+  .name, .softwareEngineer {
+    width: 350px;
+  }
+  .titles {
+    width: 250px;
   }
 }
 
