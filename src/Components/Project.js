@@ -50,7 +50,7 @@ function Project(props) {
           <div className='pods-content-back'>
             <div className='tech-group'>
               {tech && tech.map((el) => (
-                <div className='tech'>{el}</div>
+                <div key={el} className='tech'>{el}</div>
               ))}
             </div>
             <div className='links-circle'>
@@ -70,7 +70,7 @@ function Project(props) {
                 <div className='youtubeLink'>
                   <a
                     className={linkData.className}
-                    href={projectLink}
+                    href={youtubeLink}
                     target={linkData.target}
                     rel={linkData.rel}
                     style={linkData.style}
@@ -83,7 +83,7 @@ function Project(props) {
                 <div className='githubLink'>
                   <a
                     className={linkData.className}
-                    href={projectLink}
+                    href={githubLink}
                     target={linkData.target}
                     rel={linkData.rel}
                     style={linkData.style}

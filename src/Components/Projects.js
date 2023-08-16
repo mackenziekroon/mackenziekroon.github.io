@@ -12,6 +12,7 @@ function Projects() {
               { Object.entries(data).map(([project, value]) => {
                 return (
                     <Project
+                    key={value.id}
                     id={value.id}
                     projectImage={value.projectImage.default}
                     projectTitle={value.projectTitle}
