@@ -6,7 +6,7 @@ import data from "../projectData"
 function Projects() {
     return (
       <div>
-        <div id="projects" className="projects-container">
+        <div className="projects-container">
           <img className="project-title" src={ProjectsHeading} alt="Projects Heading"/>
           <div className="projects">
               { Object.entries(data).map(([project, value]) => {
