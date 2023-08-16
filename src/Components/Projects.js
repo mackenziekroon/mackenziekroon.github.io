@@ -7,7 +7,7 @@ function Projects() {
     return (
       <div>
         <div className="projects-container">
-          <img className="project-title" src={ProjectsHeading} alt="Projects Heading"/>
+          <img className="project-heading" src={ProjectsHeading} alt="Projects Heading"/>
           <div className="projects">
               { Object.entries(data).map(([project, value]) => {
                 return (
