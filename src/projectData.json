@@ -29,7 +29,6 @@
       "projectTitle": "Fruitify Juicery",
       "projectDescription": "A mock e-commerce web application that sells juices",
       "tech": ["JavaScript", "React", "Redux", "Node", "Express", "PostgreSQL"],
-      "projectLink": "https://graceshopper-juicify.herokuapp.com/",
       "githubLink": "https://github.com/grace-shopper-fruit-for-loops/graceshopper"
     }
   ]
