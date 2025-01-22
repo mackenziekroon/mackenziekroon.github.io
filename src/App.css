@@ -615,6 +615,10 @@ a {
   padding: 0;
 }
 
+#inprogress {
+  background-color: #FDE962;
+}
+
 #seekr {
   background-color: #9C8BEF;
 }
@@ -627,9 +631,6 @@ a {
   background-color: #5CD1FF;
 }
 
-#vacay {
-  background-color: #FDE962;
-}
 
 a {
   text-decoration: none;

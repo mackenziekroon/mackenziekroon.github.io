@@ -1,6 +1,15 @@
 {
   "data": [
     {
+      "name": "In Progress",
+      "id": "inprogress",
+      "projectImage": "in-progress.png",
+      "projectTitle": "In Progress",
+      "projectDescription": "Currently in development",
+      "tech": ["React", "JavaScript"],
+      "githubLink": "https://github.com/mackenziekroon/mock-coffee-shop"
+    },
+    {
       "name": "seekr",
       "id": "seekr",
       "projectImage": "seekr-vector.png",
