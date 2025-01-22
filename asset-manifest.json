@@ -1,34 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.f79df110.chunk.css",
-    "main.js": "/static/js/main.03c2a97e.chunk.js",
-    "main.js.map": "/static/js/main.03c2a97e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.fbf79287.js",
-    "runtime-main.js.map": "/static/js/runtime-main.fbf79287.js.map",
-    "static/js/2.7b4d3aa9.chunk.js": "/static/js/2.7b4d3aa9.chunk.js",
-    "static/js/2.7b4d3aa9.chunk.js.map": "/static/js/2.7b4d3aa9.chunk.js.map",
-    "static/js/3.b29dca3e.chunk.js": "/static/js/3.b29dca3e.chunk.js",
-    "static/js/3.b29dca3e.chunk.js.map": "/static/js/3.b29dca3e.chunk.js.map",
+    "main.css": "/static/css/main.a017ff03.css",
+    "main.js": "/static/js/main.3035034a.js",
+    "static/js/453.bb012c30.chunk.js": "/static/js/453.bb012c30.chunk.js",
+    "static/media/software-engineer-vector.png": "/static/media/software-engineer-vector.25ec31a06472f1aa6fb5.png",
+    "static/media/name-vector.png": "/static/media/name-vector.e79a7a453535f69c064f.png",
+    "static/media/projects-heading-vector.png": "/static/media/projects-heading-vector.f1c2cb4da45f4ae9a78e.png",
+    "static/media/star-vector.png": "/static/media/star-vector.b68c925dce0caefa2a4a.png",
+    "static/media/contact-vector.png": "/static/media/contact-vector.cd7fe6eb5cea239da67c.png",
+    "static/media/projects-vector.png": "/static/media/projects-vector.2d69e62f4e252cc2c7ca.png",
+    "static/media/linked-vector.png": "/static/media/linked-vector.cd660124d3c83510f71c.png",
+    "static/media/github-vector.png": "/static/media/github-vector.89ebb2a974076c2acf94.png",
     "index.html": "/index.html",
-    "static/css/main.f79df110.chunk.css.map": "/static/css/main.f79df110.chunk.css.map",
-    "static/js/2.7b4d3aa9.chunk.js.LICENSE.txt": "/static/js/2.7b4d3aa9.chunk.js.LICENSE.txt",
-    "static/media/contact-vector.cd7fe6eb.png": "/static/media/contact-vector.cd7fe6eb.png",
-    "static/media/github-vector.89ebb2a9.png": "/static/media/github-vector.89ebb2a9.png",
-    "static/media/juicery-vector.png": "/static/media/juicery-vector.3d4755b5.png",
-    "static/media/linked-vector.cd660124.png": "/static/media/linked-vector.cd660124.png",
-    "static/media/name-vector.e79a7a45.png": "/static/media/name-vector.e79a7a45.png",
-    "static/media/projects-heading-vector.f1c2cb4d.png": "/static/media/projects-heading-vector.f1c2cb4d.png",
-    "static/media/projects-vector.2d69e62f.png": "/static/media/projects-vector.2d69e62f.png",
-    "static/media/pupquiz-vector.png": "/static/media/pupquiz-vector.2c71edd5.png",
-    "static/media/seekr-vector.png": "/static/media/seekr-vector.418749f4.png",
-    "static/media/software-engineer-vector.25ec31a0.png": "/static/media/software-engineer-vector.25ec31a0.png",
-    "static/media/star-vector.b68c925d.png": "/static/media/star-vector.b68c925d.png",
-    "static/media/travel-app-vector.png": "/static/media/travel-app-vector.50ee6ba6.png"
+    "main.a017ff03.css.map": "/static/css/main.a017ff03.css.map",
+    "main.3035034a.js.map": "/static/js/main.3035034a.js.map",
+    "453.bb012c30.chunk.js.map": "/static/js/453.bb012c30.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.fbf79287.js",
-    "static/js/2.7b4d3aa9.chunk.js",
-    "static/css/main.f79df110.chunk.css",
-    "static/js/main.03c2a97e.chunk.js"
+    "static/css/main.a017ff03.css",
+    "static/js/main.3035034a.js"
   ]
 }
