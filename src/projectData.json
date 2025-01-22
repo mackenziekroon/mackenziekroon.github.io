@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "name": "seekr",
+      "id": "seekr",
+      "projectImage": "seekr-vector.png",
+      "projectTitle": "seekr",
+      "projectDescription": "A PWA that allows candidates and recruiters to connect",
+      "tech": ["JavaScript", "React", "Redux", "Node", "Express", "PostgreSQL"],
+      "projectLink": "https://seekr-job-app.herokuapp.com/",
+      "youtubeLink": "https://www.youtube.com/watch?v=ByWsbggwCiM&list=PLx0iOsdUOUml9uxVlTFGdM_l9MC2GqwBA&index=7",
+      "githubLink": "https://github.com/mackenziekroon/job-app",
+      "addInfoHeading": "This app was designed mobile first",
+      "addInfoContent": "For optimal user experience, please view on a mobile device"
+    },
+    {
+      "name": "Pup Quiz",
+      "id": "pupquiz",
+      "projectImage": "pupquiz-vector.png",
+      "projectTitle": "Pup Quiz",
+      "projectDescription": "A mobile app that tests users' knowledge of dog breeds",
+      "tech": ["React Native", "JavaScript", "Node", "Express", "PostgreSQL"],
+      "githubLink": "https://github.com/mackenziekroon/stackathon_project"
+    },
+    {
+      "name": "Fruitify Juicery",
+      "id": "juicery",
+      "projectImage": "juicery-vector.png",
+      "projectTitle": "Fruitify Juicery",
+      "projectDescription": "A mock e-commerce web application that sells juices",
+      "tech": ["JavaScript", "React", "Redux", "Node", "Express", "PostgreSQL"],
+      "projectLink": "https://graceshopper-juicify.herokuapp.com/",
+      "githubLink": "https://github.com/grace-shopper-fruit-for-loops/graceshopper"
+    }
+  ]
+}
